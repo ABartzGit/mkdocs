@@ -1,0 +1,23 @@
+site_name: Batch Shipments
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+
+
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
